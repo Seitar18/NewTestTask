@@ -28,7 +28,7 @@ For running tests use command **mvn test** from project directory
 All tests presented in TestNG.xml test-suite file
 There are few required parameter in the test-suite file:
 
-**uiDomain** - for UI-testing domain link(prod, dev, local, etc.), "https://pdffiller.com/" by default
-**apiDomain** - for API-testing domain link(prod, dev, local, etc.), "https://api.pdffiller.com/" by default
-**apiKey** - for app access
+1. **uiDomain** - for UI-testing domain link(prod, dev, local, etc.), "https://pdffiller.com/" by default.
+2. **apiDomain** - for API-testing domain link(prod, dev, local, etc.), "https://api.pdffiller.com/" by default.
+3. **apiKey** - for app access
 
