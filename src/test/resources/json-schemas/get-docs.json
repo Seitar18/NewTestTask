@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "array"
+    },
+    "total": {
+      "type": "number"
+    },
+    "current_page": {
+      "type": "number",
+      "default": 1
+    },
+    "per_page": {
+      "type": "number",
+      "default": 15
+    },
+    "prev_page_url": {
+      "type": "string",
+      "default": "empty string"
+    },
+    "next_page_url": {
+      "type": "string",
+      "default": "empty string"
+    }
+  }
+}

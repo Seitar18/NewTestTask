@@ -1,0 +1,14 @@
+<suite name="JinniTestTask">
+    <parameter name="uiDomain" value="https://pdffiller.com/" />
+    <parameter name="apiDomain" value="https://api.pdffiller.com/" />
+    <parameter name="apiKey" value="jvqqQBWLoWK5PP9KOCds92wPRQURkoA8LZiwwEXk" />
+    <test name="BookingTests" >
+        <classes>
+            <class name="com.test.FirstTest"></class>
+            <class name="com.test.SecondTest"></class>
+        </classes>
+    </test>
+</suite>
+
+
+

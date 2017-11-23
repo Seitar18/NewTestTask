@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "default": 0
+    },
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "created": {
+      "type": "number",
+      "default": 0
+    },
+    "updated": {
+      "type": "number",
+      "default": 0
+    },
+    "folder": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "number",
+          "default": 0
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
